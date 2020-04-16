@@ -1,0 +1,30 @@
+{
+  "name": "com.jineshsoni.phone2web.broker",
+  "version": "1.0.0",
+  "description": "A simple mqtt broker for Phone2Web",
+  "main": "broker.js",
+  "scripts": {
+    "start": "node broker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jineshsoni/phone2web.broker.git"
+  },
+  "keywords": [
+    "android",
+    "ios",
+    "mqtt",
+    "phone",
+    "phone2web"
+  ],
+  "author": "Jinesh Soni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jineshsoni/phone2web.broker/issues"
+  },
+  "homepage": "https://github.com/jineshsoni/phone2web.broker#readme",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "mosca": "^2.8.3"
+  }
+}
